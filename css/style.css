@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blue;
+}
+/*colores
+#E1D7C6 marroncito pastel
+#ECE8DD marroncito mas claro
+#F8F4EA marroncito nude
+*/
+.encabezado{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1rem;
+}
+.encabezado h1{
+    height: 20px;
+    font-size: 15px;
+    justify-content: start;
+    text-align: center;
+
+}
+.logo{
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
+    border: 2px solid #E1D7C6;
+}
+
+.navbar-brand{
+    border-radius: 10%;
+}
+
+.anchor a{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+
+}
+
