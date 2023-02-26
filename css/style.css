@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+/*inicio*/
 body{
     background-color: blue;
 }
@@ -11,6 +12,18 @@ body{
 #ECE8DD marroncito mas claro
 #F8F4EA marroncito nude
 */
+
+.encabezado-sup h1{
+    background-color:#E1D7C6 ;
+    height: 20px;
+    font-size: 15px;
+    padding: 20px;
+    margin-top: -1%;
+    text-align: center;
+    align-items: center;
+    justify-content: start;
+    
+}
 .encabezado{
     display: flex;
     flex-direction: row;
@@ -34,11 +47,117 @@ body{
 .navbar-brand{
     border-radius: 10%;
 }
-
-.anchor a{
-    text-decoration: none;
-    color: black;
-    margin: 10px;
+.barra-de-navegacion{
+    display: flex;
+    justify-content: center;
+    text-align: center;
 
 }
 
+.barra-de-navegacion a{
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+}
+.carousel-inner{
+    width: 450px;
+    height: 450px;
+    margin: auto;
+}
+.Novedades-titulo{
+    background-color:#E1D7C6 ;
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+}
+.Novedades-titulo h2{
+    font-size: 30px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 40px;
+}
+.categoria-h2{
+    background-color:#E1D7C6 ;
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+}
+.categoria-h2 h2{
+    font-size: 30px;
+}
+/*fin de la hoja de estilos de inicio*/
+
+
+/*Productos*/
+.encabezado-sup-productos h1{
+    background-color:#E1D7C6 ;
+    height: 20px;
+    font-size: 15px;
+    padding: 20px;
+    margin-top: -1%;
+    text-align: center;
+    align-items: center;
+    justify-content: start;
+    
+}
+
+.encabezado-productos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1rem;
+}
+.barra-de-navegacion-productos{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+.barra-navegacion-productos a{
+   
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+}
+.categoria-h2-productos{
+    padding: 10px;
+    margin-right:1300px;
+}
+.categoria-h2-productos h2{
+    font-size: 30px;
+    text-align: center;
+    color: #E1D7C6;
+    text-decoration: underline;
+    text-decoration-style:double ;
+}
+.categorias-productos{
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    margin: 10px;
+    border: 5px solid #E1D7C6;
+    margin: 5px;
+    margin-right: 1000px;
+    
+    
+}
+.categorias-productos a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    
+}
+.tarjetas-productos{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 10px 40px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.card-body{
+    text-align: center;
+}
