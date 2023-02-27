@@ -73,7 +73,7 @@ body{
 .Novedades-titulo h2{
     font-size: 30px;
 }
-.container{
+.container-inicio{
     display: flex;
     justify-content: center;
     align-content: center;
@@ -141,23 +141,219 @@ body{
     border: 5px solid #E1D7C6;
     margin: 5px;
     margin-right: 1000px;
-    
-    
 }
+
 .categorias-productos a{
     text-decoration: none;
     padding: 10px;
     color: black;
-    
 }
-.tarjetas-productos{
+
+.card-body h5{
     display: flex;
     justify-content: center;
-    align-content: center;
-    gap: 10px 40px;
-    flex-wrap: wrap;
-    margin-top: 10px;
-}
-.card-body{
     text-align: center;
 }
+.card-body p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.card-body a{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    border: black;
+    margin: 15px;
+}
+.card div{
+    background-color: #E1D7C6;
+     height:auto
+}
+.productos-1{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 20px 40px;
+    margin: 20px;
+}
+.higiene-2{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 20px 40px;
+    margin: 20px;
+}
+.accesorios-3{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 20px 40px;
+    margin: 20px;
+}
+/*fin de la hoja de estilos de productos*/
+
+/*contactos*/
+.encabezado-sup-contactos h1{
+    background-color:#E1D7C6 ;
+    height: 20px;
+    font-size: 15px;
+    padding: 20px;
+    margin-top: -1%;
+    text-align: center;
+    align-items: center;
+    justify-content: start;
+}
+.encabezado-contactos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1rem;
+}
+.barra-navegacion-contactos{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.barra-navegacion-contactos a{
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+}
+.contacto-h2{
+    padding: 10px;
+    margin-right:1300px;
+}
+.contactos-h2 h2{
+    font-size: 30px;
+    text-align: start;
+    color: #E1D7C6;
+    text-decoration: underline;
+    text-decoration-style:double ;
+    margin: 10px;
+}
+.contactos{
+    display: inline-block;
+    justify-content: start;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 2px solid #E1D7C6;
+    margin: 10px;
+    margin-right: 1000px;
+}
+.contactos-h3 h3{
+    font-size: 20px;
+    margin: 10px;
+}
+.fa-solid{
+    margin: 10px;
+}
+.link-wp{
+    text-align: start;
+    margin: 10px;
+}
+.link-wp a{
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    font-family: "Font Awesome 6 Free";
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.formulario-contactos{
+    align-items: center;
+    margin-left:200px;
+    margin-top: -300px;
+    margin-right: 250px;
+    width: 600px;
+}
+.boton-contactos{
+    display: flex;
+    justify-content: center;
+    align-content:  center;
+    margin-top: -10px;
+    margin-left: -300px;
+}
+.boton-contactos button{
+    background-color: #E1D7C6;
+    color: black;
+}
+/*fin de la hoja de estilos de contactos*/
+
+/*guia de talles*/
+.encabezado-sup-guia-de-talles h1{
+    background-color:#E1D7C6 ;
+    height: 20px;
+    font-size: 15px;
+    padding: 20px;
+    margin-top: -1%;
+    text-align: center;
+    align-items: center;
+    justify-content: start;
+}
+.encabezado-guia-de-talles{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1rem;
+}
+.barra-de-navegacion-guia-de-talles{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.barra-de-navegacion-guia-de-talles a{
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+}
+.guia-de-talles{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.guia-de-talles h2{
+    color: #E1D7C6;
+    text-decoration: underline;
+    text-decoration-style:double
+}
+.container img{
+    width: 900px;
+}
+/*fin de la hoja de estilos de guia de talles*/
+
+/*encargos*/
+
+.encabezado-sup-encargos h1{
+    background-color:#E1D7C6 ;
+    height: 20px;
+    font-size: 15px;
+    padding: 20px;
+    margin-top: -1%;
+    text-align: center;
+    align-items: center;
+    justify-content: start;
+}
+.encabezado-encargos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1rem;
+}
+.barra-de-navegacion-encargos{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.barra-de-navegacion-encargos a{
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+}
+
